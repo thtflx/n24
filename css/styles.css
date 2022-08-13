@@ -1,5 +1,10 @@
 /* Global */
 
+:root {
+    --accent-color: #f6f6f6;
+    --latter-main-color: #7296ec;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -31,7 +36,7 @@ img {
 /* OUTLINE STYLES */
 
 *:focus {
-    outline: 2px dashed #7296ec;
+    outline: 2px dashed var(--latter-main-color);
     outline-offset: 4px;
 }
 
@@ -65,7 +70,7 @@ img {
 }
 
 .button-primary {
-    background-color: #7296ec;
+    background-color: var(--latter-main-color);
     color: #fff;
 }
 
@@ -96,7 +101,7 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 10px;
-    background-color: #f6f6f6;
+    background-color: var(--accent-color);
 }
 
 .site-header-top-container {
@@ -225,7 +230,7 @@ img {
 }
 
 .sitenav-link:hover {
-    color: #7296ec;
+    color: var(--latter-main-color);
 }
 
 .sitenav-link:active {
@@ -285,7 +290,7 @@ img {
 }
 
 .article-card-link:hover {
-    color: #7296ec;
+    color: var(--latter-main-color);
 }
 
 .article-card-link:active {
@@ -378,7 +383,7 @@ img {
     align-items: flex-start;
     padding: 20px;
     border-radius: 15px;
-    background-color: #f6f6f6;
+    background-color: var(--accent-color);
 }
 
 .article-card-horizontal-img {
@@ -408,7 +413,7 @@ img {
 }
 
 .artical-card-horizontal-link:hover {
-    color: #7296ec;
+    color: var(--latter-main-color);
 }
 
 .artical-card-horizontal-link:active {
@@ -473,7 +478,7 @@ img {
 .sidebar-news-card {
     padding: 20px;
     border-radius: 15px;
-    background-color: #f6f6f6;
+    background-color: var(--accent-color);
     color: #000;
 }
 
@@ -523,7 +528,7 @@ img {
 }
 
 .sidebar-news-card-link:hover {
-    color: #7296ec;
+    color: var(--latter-main-color);
 }
 
 .sidebar-news-card-link:active {
@@ -556,7 +561,7 @@ img {
 .site-footer {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #7296ec;
+    background-color: var(--latter-main-color);
     color: rgba(255, 255, 255, 1);
 }
 
@@ -706,7 +711,7 @@ img {
     padding: 20px 25px;
     margin: 0;
     border-radius: 10px;
-    background-color: #f6f6f6;
+    background-color: var(--accent-color);
     color: #000;
 }
 
